@@ -8,6 +8,6 @@ import (
 )
 
 func main() {
-	var goos string = os.Getenv("GOOS")
-	fmt.Println("The operating system is %s", goos)
+	var goos string = os.Getenv("GOPATH")
+	fmt.Println("The GOPATH is %s", goos)
 }
