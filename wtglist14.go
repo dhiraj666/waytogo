@@ -1,4 +1,4 @@
-// local scope
+// global scope
 
 package main
 
@@ -15,6 +15,6 @@ func n() {
 }
 
 func m() {
-	a := "o"
+	a = "O"
 	print(a)
 }
